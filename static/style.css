@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: red;
+}
+
+li, a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 30px 10%;
+}
+
+.home a{
+    color: black;
+    font-size: 28px;
+}
+
+.home a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.25s;
+}
+
+.home a:hover::after{
+    width: 100%;
+}
+.nav-link{
+    list-style: none;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover{
+    color: red;
+}
+
+.home-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    width: 80%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.home-subtitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    width: 80%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+mark.red{
+    color: red;
+}
+
+.skyline{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -350;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    font-family:'Noto Sans', sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-weight: bold;
+    text-align: left;
+    font-family:'Noto Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 9rem;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.overview{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    outline: red solid 5px;
+    padding: 20px;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+}
+
+.table-section{
+    padding-top: 10px;
+}
+
+.table-section table{
+    border-collapse: collapse;
+}
+
+.table-section table tr{
+    border-bottom: 1px solid grey;
+}
+.table-section table th{
+    text-align: left;
+    font-weight: normal;
+    padding-right: 50px;
+}
+
+.vid-title{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 5px;
+    font-weight: bold;
+    text-align: left;
+    font-family:'Noto Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 9rem;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.video{
+    margin-left: 9rem;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.vid-subtitle{
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left: 9rem;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.vid-subtitle a{
+    text-decoration: underline;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
